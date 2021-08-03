@@ -63,6 +63,4 @@ app.use("/file", filedownloaderRoute);
 /////////////////
 //Server Listen
 //const port = 3000;
-app.listen(() => {
-  console.log("Server Running");
-});
+app.listen();
